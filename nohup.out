@@ -1465,3 +1465,826 @@ OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5006):
 2024-10-12 15:05:14 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
 2024-10-12 15:05:14 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 422 None
 2024-10-12 15:05:14 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:29:55 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:29:55 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:29:55 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 422 None
+2024-10-12 15:29:55 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:31:18 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:31:18 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:31:21 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 None
+2024-10-12 15:31:21 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:38:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:38:53 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:38:54 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:38:54 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+usage: rasa run [-h] [-v] [-vv] [--quiet] [--logging-config-file LOGGING_CONFIG_FILE] [-m MODEL]
+                [--log-file LOG_FILE] [--use-syslog] [--syslog-address SYSLOG_ADDRESS]
+                [--syslog-port SYSLOG_PORT] [--syslog-protocol SYSLOG_PROTOCOL]
+                [--endpoints ENDPOINTS] [-i INTERFACE] [-p PORT] [-t AUTH_TOKEN]
+                [--cors [CORS ...]] [--enable-api] [--response-timeout RESPONSE_TIMEOUT]
+                [--request-timeout REQUEST_TIMEOUT] [--remote-storage REMOTE_STORAGE]
+                [--ssl-certificate SSL_CERTIFICATE] [--ssl-keyfile SSL_KEYFILE]
+                [--ssl-ca-file SSL_CA_FILE] [--ssl-password SSL_PASSWORD]
+                [--credentials CREDENTIALS] [--connector CONNECTOR] [--jwt-secret JWT_SECRET]
+                [--jwt-method JWT_METHOD] [--jwt-private-key JWT_PRIVATE_KEY]
+                {actions} ... [model-as-positional-argument]
+rasa run: error: argument {actions}: invalid choice: '--' (choose from 'actions')
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-12 15:40:29 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+Traceback (most recent call last):
+  File "/usr/local/bin/rasa", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/rasa/__main__.py", line 133, in main
+    cmdline_arguments.func(cmdline_arguments)
+  File "/usr/local/lib/python3.10/dist-packages/rasa/cli/run.py", line 57, in run_actions
+    sdk.main_from_args(args)
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/__main__.py", line 21, in main_from_args
+    run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/endpoint.py", line 157, in run
+    app = create_app(
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/endpoint.py", line 85, in create_app
+    executor.register_package(action_package_name)
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/executor.py", line 263, in register_package
+    self._import_submodules(package)
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/executor.py", line 226, in _import_submodules
+    self._import_module(full_name)
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/executor.py", line 240, in _import_module
+    module = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/content/my-chatbot-project/actions/actions.py", line 3, in <module>
+    class ActionDefaultFallback(Action):
+NameError: name 'Action' is not defined
+2024-10-12 15:40:29 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): o251570.ingest.sentry.io:443
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-12 15:40:29 DEBUG    urllib3.connectionpool  - https://o251570.ingest.sentry.io:443 "POST /api/2801673/envelope/ HTTP/11" 200 0
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-12 15:40:33 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-12 15:40:34 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-12 15:40:35 INFO     rasa.core.processor  - Loading model models/20241012-153920-adaptive-clone.tar.gz...
+2024-10-12 15:40:54 INFO     root  - Rasa server is up and running.
+[2024-10-12 15:40:54 +0000] [47670] [ERROR] Unable to start server
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sanic/server/runners.py", line 133, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1790, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+2024-10-12 15:40:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:40:57 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:40:57 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:40:57 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:41:21 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:41:21 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:41:22 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:41:22 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:41:34 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:41:34 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:41:34 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:41:34 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:41:44 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:41:44 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:41:44 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:41:44 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:42:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:42:53 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:42:54 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:42:54 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:43:13 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:43:13 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:43:14 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:43:14 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:43:19 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:43:19 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:43:20 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:43:20 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:43:54 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:43:54 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:43:55 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:43:55 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:46:09 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:46:09 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:46:10 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:46:10 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:46:59 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:46:59 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:47:00 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:47:00 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:48:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:48:57 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:48:58 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:48:58 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 15:51:03 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 15:51:03 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 15:51:03 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 287
+2024-10-12 15:51:03 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+Error from API: 503, {"error":"Model openai-community/gpt2 is currently loading","estimated_time":21.923635482788086}
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+Error from API: 422, {"error":"Input validation error: `inputs` cannot be empty","error_type":"validation"}
+Error from API: 422, {"error":"Input validation error: `inputs` cannot be empty","error_type":"validation"}
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+No choices found in response.
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-12 15:53:33 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-12 15:53:35 INFO     root  - Starting Rasa server on http://0.0.0.0:5006
+2024-10-12 15:53:36 INFO     rasa.core.processor  - Loading model models/20241012-155044-achromatic-vocal.tar.gz...
+2024-10-12 15:53:54 INFO     root  - Rasa server is up and running.
+Unable to start server
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sanic/server/runners.py", line 133, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1790, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5006): address already in use
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-12 15:54:12 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+Traceback (most recent call last):
+  File "/usr/local/bin/rasa", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/rasa/__main__.py", line 133, in main
+    cmdline_arguments.func(cmdline_arguments)
+  File "/usr/local/lib/python3.10/dist-packages/rasa/cli/run.py", line 57, in run_actions
+    sdk.main_from_args(args)
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/__main__.py", line 21, in main_from_args
+    run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/endpoint.py", line 157, in run
+    app = create_app(
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/endpoint.py", line 85, in create_app
+    executor.register_package(action_package_name)
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/executor.py", line 263, in register_package
+    self._import_submodules(package)
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/executor.py", line 226, in _import_submodules
+    self._import_module(full_name)
+  File "/usr/local/lib/python3.10/dist-packages/rasa_sdk/executor.py", line 240, in _import_module
+    module = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/content/my-chatbot-project/actions/actions.py", line 6, in <module>
+    class ActionDefaultFallback(Action):
+NameError: name 'Action' is not defined
+2024-10-12 15:54:12 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): o251570.ingest.sentry.io:443
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-12 15:54:12 DEBUG    urllib3.connectionpool  - https://o251570.ingest.sentry.io:443 "POST /api/2801673/envelope/ HTTP/11" 200 0
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-12 15:54:17 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-12 15:54:18 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-12 15:54:19 INFO     rasa.core.processor  - Loading model models/20241012-155044-achromatic-vocal.tar.gz...
+2024-10-12 15:54:36 INFO     root  - Rasa server is up and running.
+2024-10-12 15:54:44 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-12 15:54:44 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_default_fallback'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2039, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+2024-10-12 15:54:44 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-12 15:54:44 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_default_fallback'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2039, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+2024-10-12 15:54:44 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-12 15:54:44 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_default_fallback'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2039, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+2024-10-12 15:54:44 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-12 15:54:44 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_default_fallback'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2039, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+2024-10-12 15:54:44 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-12 15:54:44 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_default_fallback'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2039, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+2024-10-12 15:54:44 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-12 15:54:44 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_default_fallback'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2039, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+2024-10-12 15:54:44 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-12 15:54:44 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_default_fallback'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2039, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+2024-10-12 15:54:44 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-12 15:54:44 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_default_fallback'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2039, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+2024-10-12 15:54:44 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-12 15:54:44 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_default_fallback'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2039, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+2024-10-12 15:54:44 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-12 15:54:44 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_default_fallback'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2039, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_default_fallback'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+2024-10-12 15:54:44 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-12 15:54:55 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-12 15:55:08 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-12 15:55:11 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-12 15:55:16 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-12 16:01:40 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+usage: rasa train [-h] [-v] [-vv] [--quiet] [--logging-config-file LOGGING_CONFIG_FILE]
+                  [--data DATA [DATA ...]] [-c CONFIG] [-d DOMAIN] [--out OUT] [--dry-run]
+                  [--skip-validation] [--fail-on-validation-warnings]
+                  [--validation-max-history VALIDATION_MAX_HISTORY] [--augmentation AUGMENTATION]
+                  [--debug-plots] [--num-threads NUM_THREADS]
+                  [--fixed-model-name FIXED_MODEL_NAME] [--persist-nlu-data] [--force]
+                  [--finetune [FINETUNE]] [--epoch-fraction EPOCH_FRACTION]
+                  [--endpoints ENDPOINTS]
+                  {core,nlu} ...
+rasa train: error: argument {core,nlu}: invalid choice: '5006' (choose from 'core', 'nlu')
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-12 16:02:41 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-12 16:02:42 INFO     root  - Starting Rasa server on http://0.0.0.0:5006
+2024-10-12 16:02:43 INFO     rasa.core.processor  - Loading model models/20241012-160213-snowy-frontlist.tar.gz...
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-12 16:02:52 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+2024-10-12 16:02:52 INFO     rasa_sdk.executor  - Registered function for 'action_default_fallback'.
+2024-10-12 16:02:52 INFO     rasa_sdk.endpoint  - Starting plugins...
+2024-10-12 16:02:52 DEBUG    rasa_sdk.plugin  - No plugins found: No module named 'rasa_sdk_plugins'
+2024-10-12 16:02:52 INFO     rasa_sdk.endpoint  - Action endpoint is up and running on http://0.0.0.0:5055
+2024-10-12 16:02:52 DEBUG    rasa_sdk.utils  - Using the default number of Sanic workers (1).
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-12 16:02:59 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-12 16:03:02 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-12 16:03:02 INFO     rasa.core.processor  - Loading model models/20241012-160213-snowy-frontlist.tar.gz...
+2024-10-12 16:03:09 INFO     root  - Rasa server is up and running.
+2024-10-12 16:03:22 INFO     root  - Rasa server is up and running.
+2024-10-12 16:03:36 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 16:03:36 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 16:03:36 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 479
+2024-10-12 16:03:36 INFO     actions.actions  - User Message: hi, Response: hi related a similar idea to Wikipedia: "As many matter, matter and gravitational waves and sightings echo factors."[19] Instead of an 'action directed to force gravity,' Gravity Ted calls gravity the 'geometry of tritium' or at the extreme of Einstein's Theory of Relativity, geostationary field theory's (Hadolian) common view of earth-like bodies mind's, portrayed as resulting from a 'pace sucking gravitation.'"
+
+Such force-like force experiments
+2024-10-12 16:03:36 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-12 16:03:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-12 16:03:53 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-12 16:03:56 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/openai-community/gpt2 HTTP/11" 200 None
+2024-10-12 16:03:56 INFO     actions.actions  - User Message: bitcoin killer?, Response: bitcoin killer?
+
+Posted 22 March 2013 - 09:42 AM #15 Quote From: Joseph Alec on
+
+
+https://twitter.com/Group.CEO/status/736183082962100018 Deleted Reply Delete
+Richard Hasler would be 112 & Bitten. What do you think about his timing? Who exactly is Renko as he promised to release Frame. Frame Mafia America? Bulk MoneyPrince&ridecoin was working on a prophecy for two months. They dont really tell us how
+2024-10-12 16:03:56 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'

@@ -43,6 +43,8 @@ policies:
     core_fallback_action_name: "action_default_fallback"
     nlu_fallback_action_name: "action_default_fallback"
 
+logging:
+  level: DEBUG
 
 
 
