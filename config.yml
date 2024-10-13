@@ -38,10 +38,12 @@ pipeline: null
 
 policies:
   - name: RulePolicy
-    core_fallback_threshold: 0.3
-    nlu_threshold: 0.4
+    core_fallback_threshold: 0.4  # Batasan confidence fallback core
+    nlu_threshold: 0.4            # Batasan confidence fallback NLU
     core_fallback_action_name: "action_default_fallback"
     nlu_fallback_action_name: "action_default_fallback"
+
+
 
 logging:
   level: DEBUG

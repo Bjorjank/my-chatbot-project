@@ -13,36 +13,31 @@ intents:
   - action_default_fallback
   - action_check_answer
 
-actions:
-  - action_check_answer
-  - action_default_fallback
-
-
 responses:
-  utter_default_fallback:
-    - text: "Maaf, saya tidak mengerti pertanyaan Anda. Saya akan mencoba menjawab dengan bantuan AI..."
-
   utter_greet:
     - text: "Hey! How are you?"
 
-  utter_knowledge:
-    - text: "Tunggu sebentar, saya sedang memproses jawaban dari AI..."
-
-  utter_cheer_up:
-    - text: "Here is something to cheer you up:"
-      image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-    - text: "Did that help you?"
-
-  utter_happy:
-    - text: "Great, carry on!"
-
   utter_goodbye:
-    - text: "Bye"
+    - text: "Goodbye! Have a great day."
 
-  utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
+  utter_affirm:
+    - text: "Glad to hear that!"
+
+  utter_deny:
+    - text: "Oh, that's unfortunate."
+
+  utter_mood_great:
+    - text: "I'm glad you're feeling great!"
+
+  utter_mood_unhappy:
+    - text: "I'm sorry to hear that. I'm sure things will get better soon."
+
+  utter_bot_challenge:
+    - text: "I am a bot, but I am here to assist you."
+
+actions:
+  - action_default_fallback  # Action untuk fallback AI
+  - action_check_answer      # Cek jawaban dari template
 
 session_config:
   session_expiration_time: 60

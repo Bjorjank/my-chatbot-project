@@ -1,36 +1,17 @@
 version: "3.1"
 
 stories:
+- story: greet user
+  steps:
+    - intent: greet
+    - action: action_check_answer  # Mengecek apakah jawaban sudah tersedia di template
 
-  - story: happy path
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - intent: mood_great
-      - action: utter_happy
+- story: goodbye user
+  steps:
+    - intent: goodbye
+    - action: action_check_answer  # Mengecek apakah ada jawaban untuk goodbye
 
-  - story: answer knowledge question
-    steps:
-      - intent: ask_knowledge
-      - action: action_check_answer
-      - action: utter_knowledge
-
-  - story: sad path 1
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - intent: mood_unhappy
-      - action: utter_cheer_up
-      - action: utter_did_that_help
-      - intent: affirm
-      - action: utter_happy
-
-  - story: sad path 2
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - intent: mood_unhappy
-      - action: utter_cheer_up
-      - action: utter_did_that_help
-      - intent: deny
-      - action: utter_goodbye
+- story: fallback to AI
+  steps:
+    - intent: nlu_fallback
+    - action: action_default_fallback  # Jika tidak ada jawaban, menggunakan fallback

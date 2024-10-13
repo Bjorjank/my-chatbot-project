@@ -1,17 +1,42 @@
-import requests
 import logging
 from rasa_sdk import Action
 from rasa_sdk.events import UserUtteranceReverted
+from huggingface_hub import InferenceClient
 
 logger = logging.getLogger(__name__)
+
+# API Client untuk Qwen dari Hugging Face
+client = InferenceClient(api_key="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")
+
+class ActionCheckAnswer(Action):
+    def name(self):
+        return "action_check_answer"
+
+    def run(self, dispatcher, tracker, domain):
+        # Mengambil intent yang dikenali
+        intent = tracker.get_intent_of_latest_message()
+
+        # Mengecek apakah intent punya jawaban di domain
+        known_responses = domain.get("responses", {}).get(f"utter_{intent}", [])
+
+        if known_responses:
+            # Jika ada respons yang sudah terdefinisi untuk intent ini
+            dispatcher.utter_message(text=known_responses[0]["text"])
+        else:
+            # Jika tidak ada respons yang terdefinisi, request ke AI
+            return [UserUtteranceReverted()]  # Fallback ke AI jika tidak ditemukan jawaban
+        return []
 
 class ActionDefaultFallback(Action):
     def name(self):
         return "action_default_fallback"
 
     def run(self, dispatcher, tracker, domain):
+        # Mendapatkan pesan user yang terakhir
         user_message = tracker.latest_message.get('text')
-        response = self.call_huggingface_api(user_message)
+
+        # Panggil AI Qwen jika tidak ada jawaban di bot
+        response = self.call_qwen_api(user_message)
 
         if response:
             dispatcher.utter_message(response)
@@ -19,29 +44,24 @@ class ActionDefaultFallback(Action):
             dispatcher.utter_message("Maaf, saya tidak memiliki jawaban untuk pertanyaan ini.")
 
         logger.info("User Message: %s, Response: %s", user_message, response)
-        return [UserUtteranceReverted()]
+        return []
 
-    def call_huggingface_api(self, message):
-        url = "https://api-inference.huggingface.co/models/openai-community/gpt2"
-        headers = {"Authorization": "Bearer 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"}
-        data = {"inputs": message}
-
+    def call_qwen_api(self, message):
         try:
-            response = requests.post(url, headers=headers, json=data)
+            # Memanggil API Qwen dengan menggunakan InferenceClient
+            responses = client.chat_completion(
+                model="Qwen/Qwen2.5-1.5B-Instruct",
+                messages=[{"role": "user", "content": message}],
+                max_tokens=500,
+                stream=False  # Kita tidak perlu menggunakan streaming di sini
+            )
 
-            if response.status_code == 200:
-                response_json = response.json()
-                print("Response from Hugging Face:", response_json)  # Logging untuk debugging
-                
-                # Memeriksa apakah response JSON memiliki key yang sesuai
-                if isinstance(response_json, list) and 'generated_text' in response_json[0]:
-                    return response_json[0]['generated_text']
-                else:
-                    print("Generated text not found in response.")
-                    return None
+            # Parsing respons yang diterima dari API Qwen
+            if responses.choices:
+                generated_response = responses.choices[0].message["content"]
+                return generated_response
             else:
-                print(f"Error in API request: {response.status_code}, {response.text}")  # Error handling yang lebih baik
                 return None
         except Exception as e:
-            print(f"Exception during API request: {str(e)}")
+            logger.error(f"Error during Qwen API call: {e}")
             return None
