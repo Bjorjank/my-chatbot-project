@@ -44,7 +44,6 @@ policies:
     nlu_fallback_action_name: "action_default_fallback"
 
 
-
 logging:
   level: DEBUG
 

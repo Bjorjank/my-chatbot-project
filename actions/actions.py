@@ -1,6 +1,6 @@
 import logging
 from rasa_sdk import Action
-from rasa_sdk.events import UserUtteranceReverted
+from rasa_sdk.events import UserUtteranceReverted, SlotSet
 from huggingface_hub import InferenceClient
 
 logger = logging.getLogger(__name__)
@@ -23,9 +23,35 @@ class ActionCheckAnswer(Action):
             # Jika ada respons yang sudah terdefinisi untuk intent ini
             dispatcher.utter_message(text=known_responses[0]["text"])
         else:
-            # Jika tidak ada respons yang terdefinisi, request ke AI
-            return [UserUtteranceReverted()]  # Fallback ke AI jika tidak ditemukan jawaban
-        return []
+            # Fallback ke AI jika tidak ditemukan jawaban
+            response = self.call_qwen_api(tracker.latest_message.get('text'))
+            if response:
+                dispatcher.utter_message(response)
+            else:
+                dispatcher.utter_message("Maaf, saya tidak memiliki jawaban untuk pertanyaan ini.")
+        
+        # Selalu kembalikan event list untuk memperbarui state
+        return [SlotSet("last_intent", intent)]  # atau return []
+
+    def call_qwen_api(self, message):
+        try:
+            # Memanggil API Qwen dengan menggunakan InferenceClient
+            responses = client.chat_completion(
+                model="Qwen/Qwen2.5-1.5B-Instruct",
+                messages=[{"role": "user", "content": message}],
+                max_tokens=500,
+                stream=False  # Kita tidak perlu menggunakan streaming di sini
+            )
+
+            # Parsing respons yang diterima dari API Qwen
+            if responses.choices:
+                generated_response = responses.choices[0].message["content"]
+                return generated_response.strip()  # Menghapus spasi kosong yang berlebihan
+            else:
+                return None
+        except Exception as e:
+            logger.error(f"Error during Qwen API call: {e}")
+            return None
 
 class ActionDefaultFallback(Action):
     def name(self):
@@ -44,7 +70,9 @@ class ActionDefaultFallback(Action):
             dispatcher.utter_message("Maaf, saya tidak memiliki jawaban untuk pertanyaan ini.")
 
         logger.info("User Message: %s, Response: %s", user_message, response)
-        return []
+        
+        # Selalu kembalikan event list untuk memperbarui state
+        return [UserUtteranceReverted()]  # atau return []
 
     def call_qwen_api(self, message):
         try:
@@ -59,7 +87,7 @@ class ActionDefaultFallback(Action):
             # Parsing respons yang diterima dari API Qwen
             if responses.choices:
                 generated_response = responses.choices[0].message["content"]
-                return generated_response
+                return generated_response.strip()  # Menghapus spasi kosong yang berlebihan
             else:
                 return None
         except Exception as e:

@@ -4145,3 +4145,585 @@ Implementing implicit namespace packages (as specified in PEP 420) is preferred 
 2024-10-13 10:07:10 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
 2024-10-13 10:07:10 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'test_user'.
 2024-10-13 10:07:20 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'test_user'.
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-16 14:03:14 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-16 14:03:15 INFO     rasa_sdk.executor  - Registered function for 'action_check_answer'.
+2024-10-16 14:03:15 INFO     rasa_sdk.executor  - Registered function for 'action_default_fallback'.
+2024-10-16 14:03:15 INFO     rasa_sdk.endpoint  - Starting plugins...
+2024-10-16 14:03:15 DEBUG    rasa_sdk.plugin  - No plugins found: No module named 'rasa_sdk_plugins'
+2024-10-16 14:03:15 INFO     rasa_sdk.endpoint  - Action endpoint is up and running on http://0.0.0.0:5055
+2024-10-16 14:03:15 DEBUG    rasa_sdk.utils  - Using the default number of Sanic workers (1).
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-16 14:03:18 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-16 14:03:19 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-16 14:03:20 INFO     rasa.core.processor  - Loading model models/20241013-100214-chill-purchase.tar.gz...
+2024-10-16 14:03:38 INFO     root  - Rasa server is up and running.
+[2024-10-16 14:03:38 +0000] [6157] [ERROR] Unable to start server
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sanic/server/runners.py", line 133, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1794, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-16 14:04:28 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-16 14:04:28 INFO     rasa_sdk.executor  - Registered function for 'action_check_answer'.
+2024-10-16 14:04:28 INFO     rasa_sdk.executor  - Registered function for 'action_default_fallback'.
+2024-10-16 14:04:28 INFO     rasa_sdk.endpoint  - Starting plugins...
+2024-10-16 14:04:28 DEBUG    rasa_sdk.plugin  - No plugins found: No module named 'rasa_sdk_plugins'
+2024-10-16 14:04:28 INFO     rasa_sdk.endpoint  - Action endpoint is up and running on http://0.0.0.0:5055
+2024-10-16 14:04:28 DEBUG    rasa_sdk.utils  - Using the default number of Sanic workers (1).
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-16 14:04:33 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-16 14:04:34 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-16 14:04:35 INFO     rasa.core.processor  - Loading model models/20241013-100214-chill-purchase.tar.gz...
+2024-10-16 14:04:53 INFO     root  - Rasa server is up and running.
+2024-10-16 14:04:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 14:04:57 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 14:05:06 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 14:05:06 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 14:05:14 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 14:05:14 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 14:05:27 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 14:05:27 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-16 14:05:34 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 None
+/usr/local/lib/python3.10/dist-packages/huggingface_hub/inference/_generated/types/base.py:139: FutureWarning: Accessing 'ChatCompletionOutputMessage' values through dict is deprecated and will be removed from version '0.25'. Use dataclass attributes instead.
+  warnings.warn(
+2024-10-16 14:05:34 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah model kerja AI dari Alibaba Cloud. Saya dirancang untuk membantu menjawab pertanyaan Anda dengan informasi yang akurat dan relevan.
+2024-10-16 14:05:34 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 14:05:34 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 14:05:34 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 468
+2024-10-16 14:05:34 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah model kerja AI dari Alibaba Cloud. Saya dirancang untuk membantu menjawab pertanyaan Anda dengan informasi yang akurat dan relevan.
+2024-10-16 14:05:34 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 14:05:34 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 14:05:34 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 468
+2024-10-16 14:05:34 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah model kerja AI dari Alibaba Cloud. Saya dirancang untuk membantu menjawab pertanyaan Anda dengan informasi yang akurat dan relevan.
+2024-10-16 14:05:34 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 14:05:34 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 468
+2024-10-16 14:05:35 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah model kerja AI dari Alibaba Cloud. Saya dirancang untuk membantu menjawab pertanyaan Anda dengan informasi yang akurat dan relevan.
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 468
+2024-10-16 14:05:35 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah model kerja AI dari Alibaba Cloud. Saya dirancang untuk membantu menjawab pertanyaan Anda dengan informasi yang akurat dan relevan.
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 468
+2024-10-16 14:05:35 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah model kerja AI dari Alibaba Cloud. Saya dirancang untuk membantu menjawab pertanyaan Anda dengan informasi yang akurat dan relevan.
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 468
+2024-10-16 14:05:35 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah model kerja AI dari Alibaba Cloud. Saya dirancang untuk membantu menjawab pertanyaan Anda dengan informasi yang akurat dan relevan.
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 468
+2024-10-16 14:05:35 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah model kerja AI dari Alibaba Cloud. Saya dirancang untuk membantu menjawab pertanyaan Anda dengan informasi yang akurat dan relevan.
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 468
+2024-10-16 14:05:35 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah model kerja AI dari Alibaba Cloud. Saya dirancang untuk membantu menjawab pertanyaan Anda dengan informasi yang akurat dan relevan.
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 14:05:35 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 468
+2024-10-16 14:05:35 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah model kerja AI dari Alibaba Cloud. Saya dirancang untuk membantu menjawab pertanyaan Anda dengan informasi yang akurat dan relevan.
+2024-10-16 14:05:35 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 14:05:35 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-16 14:06:13 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+[2024-10-16 14:06:47 +0000] [6496] [ERROR] <Request: GET /conversations/user1/tracker> body not consumed.
+2024-10-16 14:56:30 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-16 15:15:03 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+2024-10-16 15:15:03 INFO     rasa_sdk.executor  - Registered function for 'action_check_answer'.
+2024-10-16 15:15:03 INFO     rasa_sdk.executor  - Registered function for 'action_default_fallback'.
+2024-10-16 15:15:03 INFO     rasa_sdk.endpoint  - Starting plugins...
+2024-10-16 15:15:03 DEBUG    rasa_sdk.plugin  - No plugins found: No module named 'rasa_sdk_plugins'
+2024-10-16 15:15:03 INFO     rasa_sdk.endpoint  - Action endpoint is up and running on http://0.0.0.0:5055
+2024-10-16 15:15:03 DEBUG    rasa_sdk.utils  - Using the default number of Sanic workers (1).
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-16 15:15:07 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-16 15:15:08 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-16 15:15:09 INFO     rasa.core.processor  - Loading model models/20241013-100214-chill-purchase.tar.gz...
+2024-10-16 15:15:27 INFO     root  - Rasa server is up and running.
+2024-10-16 15:15:48 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:15:48 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 15:15:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:15:57 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-16 15:16:19 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 None
+/usr/local/lib/python3.10/dist-packages/huggingface_hub/inference/_generated/types/base.py:139: FutureWarning: Accessing 'ChatCompletionOutputMessage' values through dict is deprecated and will be removed from version '0.25'. Use dataclass attributes instead.
+  warnings.warn(
+2024-10-16 15:16:19 INFO     actions.actions  - User Message: i'm fine, Response: Hello! I'm just a language model, but I'm here and ready to assist you with any questions or topics you'd like to discuss. How can I help you today?
+2024-10-16 15:16:19 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:16:34 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:16:34 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 503 101
+2024-10-16 15:17:03 ERROR    rasa.core.channels.rest  - {"text": "siapa itu jackma?", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:18:00 ERROR    rasa.core.channels.rest  - {"text": "apa itu alibaba?", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:18:59 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 None
+2024-10-16 15:18:59 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:18:59 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:18:59 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:19:19 ERROR    rasa.core.channels.rest  - {"text": "good morning", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:19:22 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 None
+2024-10-16 15:19:22 INFO     actions.actions  - User Message: apa itu alibaba?, Response: Alibaba adalah sebuah perusahaan Bondo (holding company) yang menyediakan layanan antara banyak perusahaan dan organisasi di seluruh dunia. Jaringan bisnis Aling Aling, salah satu brand-nya, adalah fitur utamanya. Selain itu, mereka juga mengoperas誓 iinda layanan berbasis servis seperti penyedia layanan perbankan, layanan transportasi digital, dan layanan perusahaan perawatan kesehatan. Alibaba juga lalu deng双 atas Bisnis China, loalo dan multicultural ist national.
+2024-10-16 15:19:22 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:19:22 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:19:22 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 15:19:39 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:19:39 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 15:19:50 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:20:08 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 None
+2024-10-16 15:20:08 INFO     actions.actions  - User Message: apa itu bitcoin?, Response: Bitcoin adalah mata uang kripto terkenal yang pertama kali diluncurkan pada tahun 2009 oleh Satoshi Nakamoto. Ini adalah jenis mata uang digital yang tidak dipegang pengguna atau digunakan untuk transaksi fisik. Di negara-negara hukum terbatas, peredaran dan penggunaan Bitcoin dianggap ilegal. Dalam perjalanan untuk mencapai kejujuran, Bitcoin mengejar celah dalam sejarah.
+2024-10-16 15:20:08 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:20:08 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:20:08 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 689
+2024-10-16 15:20:08 INFO     actions.actions  - User Message: apa itu bitcoin?, Response: Bitcoin adalah mata uang kripto terkenal yang pertama kali diluncurkan pada tahun 2009 oleh Satoshi Nakamoto. Ini adalah jenis mata uang digital yang tidak dipegang pengguna atau digunakan untuk transaksi fisik. Di negara-negara hukum terbatas, peredaran dan penggunaan Bitcoin dianggap ilegal. Dalam perjalanan untuk mencapai kejujuran, Bitcoin mengejar celah dalam sejarah.
+2024-10-16 15:20:08 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:20:08 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:20:08 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 689
+2024-10-16 15:20:08 INFO     actions.actions  - User Message: apa itu bitcoin?, Response: Bitcoin adalah mata uang kripto terkenal yang pertama kali diluncurkan pada tahun 2009 oleh Satoshi Nakamoto. Ini adalah jenis mata uang digital yang tidak dipegang pengguna atau digunakan untuk transaksi fisik. Di negara-negara hukum terbatas, peredaran dan penggunaan Bitcoin dianggap ilegal. Dalam perjalanan untuk mencapai kejujuran, Bitcoin mengejar celah dalam sejarah.
+2024-10-16 15:20:08 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:20:08 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 689
+2024-10-16 15:20:09 INFO     actions.actions  - User Message: apa itu bitcoin?, Response: Bitcoin adalah mata uang kripto terkenal yang pertama kali diluncurkan pada tahun 2009 oleh Satoshi Nakamoto. Ini adalah jenis mata uang digital yang tidak dipegang pengguna atau digunakan untuk transaksi fisik. Di negara-negara hukum terbatas, peredaran dan penggunaan Bitcoin dianggap ilegal. Dalam perjalanan untuk mencapai kejujuran, Bitcoin mengejar celah dalam sejarah.
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 689
+2024-10-16 15:20:09 INFO     actions.actions  - User Message: apa itu bitcoin?, Response: Bitcoin adalah mata uang kripto terkenal yang pertama kali diluncurkan pada tahun 2009 oleh Satoshi Nakamoto. Ini adalah jenis mata uang digital yang tidak dipegang pengguna atau digunakan untuk transaksi fisik. Di negara-negara hukum terbatas, peredaran dan penggunaan Bitcoin dianggap ilegal. Dalam perjalanan untuk mencapai kejujuran, Bitcoin mengejar celah dalam sejarah.
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 689
+2024-10-16 15:20:09 INFO     actions.actions  - User Message: apa itu bitcoin?, Response: Bitcoin adalah mata uang kripto terkenal yang pertama kali diluncurkan pada tahun 2009 oleh Satoshi Nakamoto. Ini adalah jenis mata uang digital yang tidak dipegang pengguna atau digunakan untuk transaksi fisik. Di negara-negara hukum terbatas, peredaran dan penggunaan Bitcoin dianggap ilegal. Dalam perjalanan untuk mencapai kejujuran, Bitcoin mengejar celah dalam sejarah.
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 689
+2024-10-16 15:20:09 INFO     actions.actions  - User Message: apa itu bitcoin?, Response: Bitcoin adalah mata uang kripto terkenal yang pertama kali diluncurkan pada tahun 2009 oleh Satoshi Nakamoto. Ini adalah jenis mata uang digital yang tidak dipegang pengguna atau digunakan untuk transaksi fisik. Di negara-negara hukum terbatas, peredaran dan penggunaan Bitcoin dianggap ilegal. Dalam perjalanan untuk mencapai kejujuran, Bitcoin mengejar celah dalam sejarah.
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 689
+2024-10-16 15:20:09 INFO     actions.actions  - User Message: apa itu bitcoin?, Response: Bitcoin adalah mata uang kripto terkenal yang pertama kali diluncurkan pada tahun 2009 oleh Satoshi Nakamoto. Ini adalah jenis mata uang digital yang tidak dipegang pengguna atau digunakan untuk transaksi fisik. Di negara-negara hukum terbatas, peredaran dan penggunaan Bitcoin dianggap ilegal. Dalam perjalanan untuk mencapai kejujuran, Bitcoin mengejar celah dalam sejarah.
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 689
+2024-10-16 15:20:09 INFO     actions.actions  - User Message: apa itu bitcoin?, Response: Bitcoin adalah mata uang kripto terkenal yang pertama kali diluncurkan pada tahun 2009 oleh Satoshi Nakamoto. Ini adalah jenis mata uang digital yang tidak dipegang pengguna atau digunakan untuk transaksi fisik. Di negara-negara hukum terbatas, peredaran dan penggunaan Bitcoin dianggap ilegal. Dalam perjalanan untuk mencapai kejujuran, Bitcoin mengejar celah dalam sejarah.
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:20:09 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 689
+2024-10-16 15:20:09 INFO     actions.actions  - User Message: apa itu bitcoin?, Response: Bitcoin adalah mata uang kripto terkenal yang pertama kali diluncurkan pada tahun 2009 oleh Satoshi Nakamoto. Ini adalah jenis mata uang digital yang tidak dipegang pengguna atau digunakan untuk transaksi fisik. Di negara-negara hukum terbatas, peredaran dan penggunaan Bitcoin dianggap ilegal. Dalam perjalanan untuk mencapai kejujuran, Bitcoin mengejar celah dalam sejarah.
+2024-10-16 15:20:09 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:20:09 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-16 15:20:26 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-16 15:20:38 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-16 15:20:54 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-16 15:21:03 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-16 15:21:14 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-16 15:21:20 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-16 15:21:32 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-16 15:21:35 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user1'.
+2024-10-16 15:21:43 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:21:43 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 703
+2024-10-16 15:21:53 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 703
+2024-10-16 15:21:53 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 703
+2024-10-16 15:21:53 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 703
+2024-10-16 15:21:53 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 703
+2024-10-16 15:21:53 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 703
+2024-10-16 15:21:53 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 703
+2024-10-16 15:21:53 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 703
+2024-10-16 15:21:53 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 703
+2024-10-16 15:21:53 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:21:53 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 703
+2024-10-16 15:21:53 INFO     actions.actions  - User Message: siapa itu jackma?, Response: Maaf, saya adalah asisten AI yang dibangun oleh Alibaba Cloud dan saya tidak memiliki informasi pribadi tentang Jackma. Bisa jadi Anda salah penjelasan atau mencoba mencari informasi yang tidak valid. Apakah ada informasi tambahan atau konteks yang Anda miliki? Saya akan bisa memberikan jawaban yang lebih akurat jika Anda bisa memberikan informasi lebih lanjut tentang si Jackma tersebut.
+2024-10-16 15:21:53 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:21:53 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user'.
+2024-10-16 15:22:03 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user'.
+2024-10-16 15:22:09 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user'.
+2024-10-16 15:22:17 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'user'.
+2024-10-16 15:23:44 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:23:56 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 None
+2024-10-16 15:23:56 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:23:56 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:23:56 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:23:56 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:23:56 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:23:56 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:23:56 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:23:56 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:23:56 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:23:56 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:23:57 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:23:57 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:23:57 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:23:57 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:23:57 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:23:57 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:23:57 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:23:57 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:23:57 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:23:57 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'rangga'.
+2024-10-16 15:24:17 WARNING  rasa.core.processor  - Circuit breaker tripped. Stopped predicting more actions for sender 'rangga'.
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-16 15:32:13 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+2024-10-16 15:32:13 INFO     rasa_sdk.executor  - Registered function for 'action_check_answer'.
+2024-10-16 15:32:13 INFO     rasa_sdk.executor  - Registered function for 'action_default_fallback'.
+2024-10-16 15:32:13 INFO     rasa_sdk.endpoint  - Starting plugins...
+2024-10-16 15:32:13 DEBUG    rasa_sdk.plugin  - No plugins found: No module named 'rasa_sdk_plugins'
+2024-10-16 15:32:13 INFO     rasa_sdk.endpoint  - Action endpoint is up and running on http://0.0.0.0:5055
+2024-10-16 15:32:13 DEBUG    rasa_sdk.utils  - Using the default number of Sanic workers (1).
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-16 15:32:16 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-16 15:32:18 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-16 15:32:18 INFO     rasa.core.processor  - Loading model models/20241013-100214-chill-purchase.tar.gz...
+2024-10-16 15:32:36 INFO     root  - Rasa server is up and running.
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3121: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-16 15:37:59 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+2024-10-16 15:37:59 INFO     rasa_sdk.executor  - Registered function for 'action_check_answer'.
+2024-10-16 15:37:59 INFO     rasa_sdk.executor  - Registered function for 'action_default_fallback'.
+2024-10-16 15:37:59 INFO     rasa_sdk.endpoint  - Starting plugins...
+2024-10-16 15:37:59 DEBUG    rasa_sdk.plugin  - No plugins found: No module named 'rasa_sdk_plugins'
+2024-10-16 15:37:59 INFO     rasa_sdk.endpoint  - Action endpoint is up and running on http://0.0.0.0:5055
+2024-10-16 15:37:59 DEBUG    rasa_sdk.utils  - Using the default number of Sanic workers (1).
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-16 15:38:02 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-16 15:38:03 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-16 15:38:04 INFO     rasa.core.processor  - Loading model models/20241016-153719-critical-gravity.tar.gz...
+2024-10-16 15:38:21 INFO     root  - Rasa server is up and running.
+2024-10-16 15:38:38 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:38:38 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 15:38:52 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:38:52 DEBUG    urllib3.connectionpool  - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-10-16 15:38:52 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 503 101
+2024-10-16 15:39:22 ERROR    rasa.core.channels.rest  - {"text": "apakah kamu tau bitcoin?", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:40:04 ERROR    rasa.core.channels.rest  - {"text": "apakah kamu qwen?", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:40:53 ERROR    rasa.core.channels.rest  - {"text": "apakah kamu jackma?", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:41:44 ERROR    rasa.core.channels.rest  - {"text": "hallo qwen!", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:42:29 ERROR    rasa.core.channels.rest  - {"text": "good afternoon", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:43:23 ERROR    rasa.core.channels.rest  - {"text": "apakah kamu qwen?", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:44:09 ERROR    rasa.core.channels.rest  - {"text": "apakah kamu qwen?", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:44:17 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 504 53
+2024-10-16 15:44:17 ERROR    actions.actions  - Error during Qwen API call: 504 Server Error: Gateway Timeout for url: https://api-inference.huggingface.co/models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions (Request ID: SCfQhINqvCeNTnjjgm_kZ)
+
+Model Qwen/Qwen2.5-1.5B-Instruct time out
+2024-10-16 15:44:17 INFO     actions.actions  - User Message: apakah kamu tau bitcoin?, Response: None
+2024-10-16 15:44:17 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:44:17 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:44:17 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+/usr/local/lib/python3.10/dist-packages/huggingface_hub/inference/_generated/types/base.py:139: FutureWarning: Accessing 'ChatCompletionOutputMessage' values through dict is deprecated and will be removed from version '0.25'. Use dataclass attributes instead.
+  warnings.warn(
+2024-10-16 15:44:17 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:44:17 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:44:17 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:44:17 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 503 101
+2024-10-16 15:45:06 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 504 53
+2024-10-16 15:45:06 ERROR    actions.actions  - Error during Qwen API call: 504 Server Error: Gateway Timeout for url: https://api-inference.huggingface.co/models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions (Request ID: MHwkzRC8cZx_h04LXnQgx)
+
+Model Qwen/Qwen2.5-1.5B-Instruct time out
+2024-10-16 15:45:06 INFO     actions.actions  - User Message: apakah kamu jackma?, Response: None
+2024-10-16 15:45:06 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:45:06 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:45:06 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 15:45:06 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:45:06 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 15:45:06 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:45:06 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:45:06 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:45:06 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:45:06 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:45:06 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:45:06 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:45:06 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:48:08 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:48:08 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 15:48:21 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:48:21 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 549
+2024-10-16 15:48:21 INFO     actions.actions  - User Message: apakah kamu qwen?, Response: Saya adalah Qwen, sebuah mesin pembelajaran人工智能 yang dibuat oleh Alibaba Cloud untuk membantu Anda. Saya memiliki kemampuan dalam berbahasa Indonesia, berarti saya mampu membantu Anda dengan berbagai topik dalam bahasa Indonesia.
+2024-10-16 15:48:21 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:48:42 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:48:43 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 503 101
+2024-10-16 15:49:11 ERROR    rasa.core.channels.rest  - {"text": "apakah kamu model milik alibaba?", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:49:29 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 504 53
+2024-10-16 15:49:29 ERROR    actions.actions  - Error during Qwen API call: 504 Server Error: Gateway Timeout for url: https://api-inference.huggingface.co/models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions (Request ID: 8DwH_UNlXOimpzDPeDzFl)
+
+Model Qwen/Qwen2.5-1.5B-Instruct time out
+2024-10-16 15:49:29 INFO     actions.actions  - User Message: apakah kamu model milik alibaba?, Response: None
+2024-10-16 15:49:29 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:49:29 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:49:29 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 503 101
+2024-10-16 15:49:49 ERROR    rasa.core.channels.rest  - {"text": "apakah kamu dibuat alibaba?", "event": "rest.message.received.timeout", "level": "error"}
+2024-10-16 15:51:33 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 None
+2024-10-16 15:51:33 INFO     actions.actions  - User Message: apakah kamu dibuat alibaba?, Response: Sebagai asisten AI, saya berbasis di Alibaba Cloud yang merupakan webiste perusahaan teknologi manajer Tiongkok. Namun, jika Anda perasaannya, saya terinspirasi dari model pemrosesan bahasa alami yang digunakan dalam produk yang disebut Baidu, perusahaan teknologi manajer juga China. Tapi, saya bukan produk asli dari Silicon Valley, California.
+2024-10-16 15:51:33 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:54:35 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:54:35 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 659
+2024-10-16 15:54:35 INFO     actions.actions  - User Message: apakah kamu dibuat alibaba?, Response: Sebagai asisten AI, saya berbasis di Alibaba Cloud yang merupakan webiste perusahaan teknologi manajer Tiongkok. Namun, jika Anda perasaannya, saya terinspirasi dari model pemrosesan bahasa alami yang digunakan dalam produk yang disebut Baidu, perusahaan teknologi manajer juga China. Tapi, saya bukan produk asli dari Silicon Valley, California.
+2024-10-16 15:54:35 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:54:48 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:54:48 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 15:54:59 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:54:59 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+2024-10-16 15:55:16 DEBUG    rasa_sdk.executor  - Received request to run 'action_default_fallback'
+2024-10-16 15:55:37 DEBUG    urllib3.connectionpool  - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-1.5B-Instruct/v1/chat/completions HTTP/11" 200 None
+2024-10-16 15:55:37 INFO     actions.actions  - User Message: apakah kamu mengenal jackma?, Response: Maaf, saya tidak begitu familiar dengan istilah tersebut. Saya tidak mengetahui apakah ada hubungan antara saya dengan Jack Ma atau apakah jawaban yang Anda perlukan berkaitan dengan Jack Ma. Namun, Jack Ma adalah salah satu pendiri Alibaba Group serta CEO Alibaba Group sejak 2015. Ini mungkin informasiࡔ
+你了解jackma吗？
+2024-10-16 15:55:37 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
+2024-10-16 15:55:51 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
+2024-10-16 15:55:51 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'

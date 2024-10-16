@@ -39,6 +39,13 @@ actions:
   - action_default_fallback  # Action untuk fallback AI
   - action_check_answer      # Cek jawaban dari template
 
+slots:
+     last_intent:
+       type: any
+       mappings:
+         - type: from_text
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
