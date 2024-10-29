@@ -4727,3 +4727,64 @@ Model Qwen/Qwen2.5-1.5B-Instruct time out
 2024-10-16 15:55:37 DEBUG    rasa_sdk.executor  - Finished running 'action_default_fallback'
 2024-10-16 15:55:51 DEBUG    rasa_sdk.executor  - Received request to run 'action_check_answer'
 2024-10-16 15:55:51 DEBUG    rasa_sdk.executor  - Finished running 'action_check_answer'
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-29 04:05:02 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-29 04:05:03 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-29 04:05:04 INFO     rasa.core.processor  - Loading model models/20241016-153719-critical-gravity.tar.gz...
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 973-543-844
+2024-10-29 04:05:20 INFO     root  - Rasa server is up and running.
+[2024-10-29 04:05:20 +0000] [8224] [ERROR] Unable to start server
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sanic/server/runners.py", line 133, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1794, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 973-543-844
+127.0.0.1 - - [29/Oct/2024 04:07:25] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Oct/2024 04:07:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Detected change in '/content/my-chatbot-project/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 973-543-844
+ * Detected change in '/content/my-chatbot-project/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 973-543-844
+127.0.0.1 - - [29/Oct/2024 04:08:19] "GET /webhooks/whatsapp/webhook?hub.mode=subscribe&hub.challenge=591908323&hub.verify_token=my_verification_token HTTP/1.1" 200 -

@@ -40,3 +40,6 @@ action_endpoint:
 #  username: username
 #  password: password
 #  queue: queue
+webhook:
+  url: "https://b3fb-35-245-70-167.ngrok-free.app/webhooks/whatsapp/webhook"
+  channel: "whatsapp"
