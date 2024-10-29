@@ -4788,3 +4788,132 @@ OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005):
  * Debugger is active!
  * Debugger PIN: 973-543-844
 127.0.0.1 - - [29/Oct/2024 04:08:19] "GET /webhooks/whatsapp/webhook?hub.mode=subscribe&hub.challenge=591908323&hub.verify_token=my_verification_token HTTP/1.1" 200 -
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-29 13:31:06 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-29 13:31:08 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-29 13:31:08 INFO     rasa.core.processor  - Loading model models/20241016-153719-critical-gravity.tar.gz...
+2024-10-29 13:31:25 INFO     root  - Rasa server is up and running.
+/usr/local/lib/python3.10/dist-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/usr/local/lib/python3.10/dist-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.cloud')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/usr/local/lib/python3.10/dist-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+2024-10-29 13:54:37 INFO     numexpr.utils  - NumExpr defaulting to 2 threads.
+2024-10-29 13:54:39 INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+2024-10-29 13:54:39 INFO     rasa.core.processor  - Loading model models/20241016-153719-critical-gravity.tar.gz...
+Error getting ngrok URL: HTTPConnectionPool(host='127.0.0.1', port=4040): Max retries exceeded with url: /api/tunnels (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12a70a77a290>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Failed to get ngrok URL.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 973-543-844
+2024-10-29 13:54:58 INFO     root  - Rasa server is up and running.
+[2024-10-29 13:54:58 +0000] [8794] [ERROR] Unable to start server
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sanic/server/runners.py", line 133, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1794, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+Successfully updated credentials.yml with new ngrok URL.
+Successfully updated endpoints.yml with new ngrok URL.
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 5006 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [29/Oct/2024 13:55:38] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Oct/2024 13:55:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Detected change in '/content/my-chatbot-project/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 973-543-844
+127.0.0.1 - - [29/Oct/2024 13:56:49] "GET /webhooks/whatsapp/webhook?hub.mode=subscribe&hub.challenge=339121389&hub.verify_token=my_verification_token HTTP/1.1" 200 -
+ * Detected change in '/content/my-chatbot-project/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 973-543-844
+2024-10-29 13:57:34 ERROR    rasa.core.actions.action  - Failed to run custom action 'action_check_answer'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+2024-10-29 13:57:34 ERROR    rasa.core.processor  - Encountered an exception while running action 'action_check_answer'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1025, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 780, in run
+    response: Any = await self.action_endpoint.request(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/utils/endpoints.py", line 174, in request
+    async with session.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 581, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 944, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1257, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1226, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1033, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host localhost:5055 ssl:default [Connection refused]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/processor.py", line 982, in _run_action
+    events = await action.run(
+  File "/usr/local/lib/python3.10/dist-packages/rasa/core/actions/action.py", line 821, in run
+    raise RasaException(
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_check_answer'. Couldn't connect to the server at 'http://localhost:5055/webhook.
+127.0.0.1 - - [29/Oct/2024 13:57:34] "POST /webhooks/whatsapp/webhook HTTP/1.1" 200 -

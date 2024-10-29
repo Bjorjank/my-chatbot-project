@@ -43,9 +43,9 @@ def whatsapp_webhook():
 
 # Fungsi untuk mengirim pesan kembali ke WhatsApp
 def send_whatsapp_message(recipient_id, message_text):
-    url = "https://graph.facebook.com/v13.0/YOUR_PHONE_NUMBER_ID/messages"
+    url = "https://graph.facebook.com/v13.0/493567327164540/messages"
     headers = {
-        "Authorization": "Bearer YOUR_ACCESS_TOKEN",  # Access token dari Facebook Developer
+        "Authorization": "Bearer EAAIr5p6tizYBOxkvby9VJ0oJ5VGEUvfnDZBXpfsCyOVaWzZAOIICZBryZCn1JfIn3qXOpZA847TalxW5ld1HatPN9PCZCgDRF0b1ZAWUUFXR6KcfrBunLpqmrTPeUARjqLlim2XwZATPdxPOHNZBVLlZCCVee2Ot5TVUWbEOJYMBmoqnUbZCiob7RyAYggFJ5qYIBPfqxwgwZBiq5qRp9laBG98s7BqeyKYZD",  # Access token dari Facebook Developer
         "Content-Type": "application/json"
     }
     
