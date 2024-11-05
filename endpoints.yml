@@ -2,4 +2,4 @@ action_endpoint:
   url: http://localhost:5055/webhook
 webhook:
   channel: whatsapp
-  url: https://24b4-34-80-49-88.ngrok-free.app/webhooks/whatsapp/webhook
+  url: https://chatbotpuncak.my.id/webhooks/whatsapp/webhook
